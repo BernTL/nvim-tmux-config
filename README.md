@@ -6,13 +6,20 @@ My configuration for **Neovim (LazyVim)** + **tmux**, stored for easy reuse acro
 
 ## 📁 Repo Structure
 
+```text
 .
 ├── .tmux.conf
 └── nvim
     ├── init.lua
-    ├── lua/
-    │   └── … custom lua modules, plugins, overrides …
-    └── other config files
+    ├── lua
+    │ ├── config
+    │ │ └── … LazyVim config overrides …
+    │ ├── plugins
+    │ │ └── … plugin specs and customizations …
+    │ └── … other Lua modules …
+    └── … other config files …
+```
+
 
 
 - `.tmux.conf` — tmux configuration
